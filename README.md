@@ -8,14 +8,14 @@ This project is a comprehensive database management system designed for hospital
 
 ### **🛠️ Setup Instructions**
 
-Prerequisites
-MySQL Server 5.7+ or MariaDB 10.2+
-MySQL Workbench (recommended for easy import)
+Prerequisites:
+
+MySQL Workbench 
 How to Import the SQL Database
 Clone this repository to your local machine
-Connect to your MySQL server using your preferred client
+Connect to your MySQL server
 Import the hospital_management_system.sql file using one of these methods:
-mysql -u username -p < hospital_management_system.sql
+mysql -u username -p < hospital_management.sql
 Or use MySQL Workbench's data import feature:
 Open MySQL Workbench
 Connect to your MySQL server
@@ -27,8 +27,8 @@ The database will be created with all tables, relationships, and constraints
 ---
 
 ### **📊 Entity Relationship Diagram (ERD)**
+<img width="793" alt="ERD_Hotel_Management" src="https://github.com/user-attachments/assets/ecf76227-4002-41cd-b6cf-23cf3c90ea89" />
 
-/Users/brendaamunga/Desktop/ERD_Hotel_Management.png 
 
 The ERD shows the complete database structure with all entities and their relationships:
 
